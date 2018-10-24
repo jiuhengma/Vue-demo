@@ -19,7 +19,7 @@ var router = new VueRouter({
         { path: '/shopcar', component: ShopcarContainer },
         { path: '/mine', component: MineContainer },
         { path: '/home/newsList', component: NewsList },
-        { path: '/home/newsinfo', component:NewsInfo }
+        { path: '/home/newsinfo', component:NewsInfo },
         // { path: '/home/newsinfo/:id', component:NewsInfo }
 
     ],

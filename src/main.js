@@ -21,11 +21,13 @@ Vue.use(VueResource);
 // Vue.http.options.root = 'vue-resource';
 
 // 按需导入 Mint-UI 中的组件 及样式
-import { Header, Swipe, SwipeItem } from 'mint-ui';
+import { Header, Swipe, SwipeItem, Button, Search } from 'mint-ui';
 import 'mint-ui/lib/style.css';
 Vue.component(Header.name, Header);
 Vue.component(Swipe.name, Swipe);
 Vue.component(SwipeItem.name, SwipeItem);
+Vue.component(Button.name, Button);
+Vue.component(Search.name, Search);
 
 // 导入 MUI 的样式
 import './lib/mui/css/mui.min.css';

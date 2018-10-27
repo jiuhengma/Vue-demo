@@ -127,6 +127,6 @@ vue项目
  4. 在初始化滑动条的时候 导入的 mui,js 但是控制台报错 
   + 经过分析可能是 mui.js 中用到了非严格的东西 而webpack打包好的 bundel.js 中 默认的是启用严格模式的 所以两者冲突了
   + 解决办法 移除严格模式：使用这个插件
-   babel-plugin-transform-remove-strict-mode
+   babel-plugin-transform-remove-strict-mode  
  5. 在刚进入图片分享界面时 滑动条无法正常工作 原因是 初始化滑动条 必须等 DOM 元素加载完毕后才可以 所以 解决办法是把 初始化滑动条的代码 放在 mounted 生命周期函数中去；
  6. 当滑动条调试好之后 出现了新的问题[tabbar无法正常工作了] 解决方法：把APP.vue中tabbar的每个 tabbar按钮样式中的 `mui-tab-item` 重新改一下名字（这里我把它改做了 'mui-tab-item-rs' ）

@@ -6,7 +6,7 @@ vue项目
 + 开发调试工具：Firefox
 
 ### 本项目用到的技术栈有：
- + html5, css3, javascrip, vue2.0, webpack4.0, node.js, MySQL
+ + html5, css3, javascrip, vue.js, webpack, node.js, MySQL
 
 ## 开发过程及思路：
 

@@ -13,7 +13,7 @@ vue项目
 ## 制作首页APP组件
 1. 完成 Header 区域，使用的是 Mint-UI 中的Header组件
 2. 制作底部的 Tabbar 区域，使用的是 MUI 中的 Tabbar.html
- + 在制作 购物车 小图标的时候，操作会相对对一些；
+ + 在制作 购物车 小图标的时候，操作会相对复杂一些；
  + 先把扩展图标的 css 样式，拷贝到项目中；
  + 再把扩展字体库 ttf 文件，拷贝到项目中；
  + 为购物车小图标添加如下样式:
@@ -89,6 +89,7 @@ vue项目
  + `import comment from './comment.vue'`
 3. 在父组件中 使用  `components` 属性 将刚才导入的 comment 组件 注册为自己的子组件
 4. 将注册子组件时候的注册名称 以标签的形式在页面中 引用即可
+<<<<<<< HEAD
 
 ## 获取所有的评论数据显示到页面中
 
@@ -130,3 +131,5 @@ vue项目
    babel-plugin-transform-remove-strict-mode  
  5. 在刚进入图片分享界面时 滑动条无法正常工作 原因是 初始化滑动条 必须等 DOM 元素加载完毕后才可以 所以 解决办法是把 初始化滑动条的代码 放在 mounted 生命周期函数中去；
  6. 当滑动条调试好之后 出现了新的问题[tabbar无法正常工作了] 解决方法：把APP.vue中tabbar的每个 tabbar按钮样式中的 `mui-tab-item` 重新改一下名字（这里我把它改做了 'mui-tab-item-rs' ）
+=======
+>>>>>>> ba11f509795dece03102847f192cc1044acfc132

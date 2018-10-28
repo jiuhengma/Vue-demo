@@ -33,6 +33,9 @@ Vue.component(Search.name, Search);
 import './lib/mui/css/mui.min.css';
 import './lib/mui/css/icons-extra.css';
 
+// 导入 bootstrap 样式
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 // 导入 router.js 路由模块
 import router from './router.js';
 
